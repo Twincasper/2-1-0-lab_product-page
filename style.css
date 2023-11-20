@@ -66,6 +66,10 @@ body {
       border: 1px solid #000;
       border-radius: 0.3rem;
     }
+
+    .headings i {
+      display: none;
+    }
   }
 
 @media (min-width: 720px) {
@@ -96,6 +100,10 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+  }
+
+  .premium-material {
+    margin-right: 8.3rem;
   }
 
   .logo-container {
