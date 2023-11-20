@@ -74,7 +74,7 @@ body {
     justify-content: space-between;
     align-items: center;
     background-color: #eee;
-    padding: 1rem;
+    padding: 1rem;   
   }
 
   #top-center {
@@ -88,6 +88,8 @@ body {
 
   .headings {
     display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   .headings .description {
@@ -124,6 +126,21 @@ body {
     border: 1px solid #000;
     border-radius: 0.3rem;
     }
+
+  .headings i {
+    margin-right: 1.5rem
+  }
+
+  .youtube {
+    margin-top: 3.1rem;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .youtube iframe {
+    max-width: 35rem;
+    width: 100%;
+  }
   }
 
   button:hover {
@@ -148,10 +165,6 @@ li {
 
 .headings {
   margin-bottom: 5rem;
-}
-
-.headings h2 {
-  text-align: center;
 }
 
 .headings p {
